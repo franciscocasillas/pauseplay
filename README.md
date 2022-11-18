@@ -14,11 +14,16 @@ Landing page for Pause Play Production company
 
 ## Optimizations
 
-- [] Create layout
+- [x] Create layout
+- [] Create a footer
+- [] Fix colors
+- [] Add icons fo features section
+- [] Add logo
+- [] Add favicon
+- [] Font sizes
+- [] Fix spacing
 - [] Create media queries
 - [] Add images
-- [] Fix colors
-- [] Add logo
 
 ### Lessons Learned:
 
