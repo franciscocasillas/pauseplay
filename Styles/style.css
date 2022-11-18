@@ -9,7 +9,7 @@ body {
 nav,
 main,
 .features {
-	background-color: rgb(222, 251, 237);
+	background-color: rgb(245, 245, 245);
 }
 
 /******************************************
@@ -35,9 +35,10 @@ nav a {
 }
 
 .button {
-	background-color: lightblue;
+	background-color: rgb(55, 55, 120);
 	padding: 5px 15px;
 	border-radius: 3px;
+	color: white;
 }
 
 /******************************************
@@ -115,4 +116,17 @@ main div span {
 	text-decoration: none;
 	color: black;
 	font-weight: 600;
+}
+
+/******************************************
+/* BOTTOM SECTION
+/*******************************************/
+
+.bottom {
+	padding: 40px 100px;
+}
+
+.bottom img {
+	width: 100%;
+	padding: 15px 0;
 }
