@@ -108,7 +108,7 @@ main div span {
 
 .features {
 	display: flex;
-	padding: 30px 100px 30px 100px;
+	padding: 60px 100px 30px 100px;
 	gap: 20px;
 }
 
@@ -116,6 +116,10 @@ main div span {
 	text-decoration: none;
 	color: black;
 	font-weight: 600;
+}
+
+.features img {
+	height: 40px;
 }
 
 /******************************************
