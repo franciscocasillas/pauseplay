@@ -18,6 +18,7 @@ Landing page for Pause Play Production company
 - [x] Create a footer
 - [x] Fix colors
 - [x] Add icons fo features section
+- [] Add invisible folder for git
 - [] Add logo
 - [] Add favicon
 - [x] Font sizes
