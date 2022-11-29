@@ -18,13 +18,14 @@ Landing page for Pause Play Production company
 - [x] Create a footer
 - [x] Fix colors
 - [x] Add icons fo features section
-- [] Add invisible folder for git
-- [] Add logo
-- [] Add favicon
+- [x] Add invisible folder for git
+- [x] Add logo
+- [x] Add favicon
 - [x] Font sizes
 - [x] Fix spacing
 - [] Create media queries
-- [] Add images
+- [x] Add images
+- [] Fix text
 
 ### Lessons Learned:
 
