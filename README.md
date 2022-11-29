@@ -23,7 +23,7 @@ Landing page for Pause Play Production company
 - [x] Add favicon
 - [x] Font sizes
 - [x] Fix spacing
-- [] Create media queries
+- [x] Create media queries
 - [x] Add images
 - [] Fix text
 

@@ -29,6 +29,10 @@ nav,
 	padding: 4px 30px;
 }
 
+nav div {
+	display: none;
+}
+
 nav li {
 	list-style-type: none;
 }
@@ -47,7 +51,7 @@ nav li a:hover {
 
 .button {
 	background-color: #e93cd4;
-	padding: 5px 15px;
+	padding: 7px 15px;
 	border-radius: 1px;
 	color: white;
 	font-size: 1.1rem;
@@ -59,6 +63,24 @@ nav li a:hover {
 
 .logo {
 	width: 48px;
+}
+
+@media all and (max-width: 700px) {
+	.links {
+		display: none;
+	}
+
+	nav {
+		padding: 4px 15px;
+	}
+
+	nav div {
+		display: block;
+	}
+
+	nav div img {
+		width: 25px;
+	}
 }
 
 /******************************************
@@ -102,6 +124,26 @@ main div span {
 
 main p {
 	font-size: 1.7rem;
+}
+
+@media all and (max-width: 1106px) {
+	main div {
+		margin-top: 0;
+	}
+}
+
+@media all and (max-width: 993px) {
+	main {
+		flex-direction: column;
+	}
+
+	main div {
+		width: 70%;
+	}
+
+	main img {
+		height: 100%;
+	}
 }
 
 /******************************************
@@ -164,6 +206,17 @@ main p {
 	height: 40px;
 }
 
+@media all and (max-width: 700px) {
+	.features {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.features div {
+		width: 47%;
+	}
+}
+
 /******************************************
 /* BOTTOM SECTION
 /*******************************************/
@@ -183,6 +236,19 @@ main p {
 .bottom img {
 	width: 100%;
 	padding: 15px 0;
+}
+
+@media all and (max-width: 700px) {
+	main,
+	.features,
+	.bottom {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	main img {
+		margin-right: 0;
+	}
 }
 
 /******************************************
